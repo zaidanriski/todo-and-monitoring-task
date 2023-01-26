@@ -1,5 +1,9 @@
 # Getting started
 
+## Demo Link
+
+   https://task-app.devzai.com/
+
 ## Installation
 
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation]
@@ -17,10 +21,16 @@ Switch to the repo folder
 Install all the dependencies using composer
 
     composer install
+    
+When composer install and existing error code run
 
+    composer update
+    
 Copy the example env file and make the required configuration changes in the .env file
 
     cp .env.example .env
+    
+Set database connection and App url link example (http://localhost/todo-and-monitoring-task) 
 
 Generate a new application key
 
